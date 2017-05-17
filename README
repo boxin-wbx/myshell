@@ -2,7 +2,7 @@
 
 （注：手册使用 markdown 语法标注，使用 markdown 编辑器查看效果更好。）
 
-myshell 是由汪博欣个人独立完成的一个简单的 Shell 实现。
+myshell 是由个人独立完成的一个简单的 Shell 实现。
 
 ## 命令提示符
 
@@ -43,7 +43,8 @@ Shell 命令由以下部分组成：
 支持的重定向的格式：
 
 programname arg1 arg2 < inputfile > outputfile 
-使用arg1 和arg2 执行程序programname，输入文件流被替换为inputfile，输出文件流被替换为outputfile。
+
+使用arg1 和arg2 执行程序programname，输入文件流被替换为inputfile，输出文件流被替换为outputfile。
 
 如果输出重定向的符号为 >>,则为追加模式，将输出的内容追加在文件的末尾（如果文件不存在则创建）。
 
